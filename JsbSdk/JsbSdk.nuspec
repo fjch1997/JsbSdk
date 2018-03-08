@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>JsbSdk</id>
+    <version>$version$</version>
+    <description>集市宝 Sdk</description>
+    <authors>Lloyd Jingchao Feng</authors>
+  </metadata>
+  <files>
+    <file src="bin\Release\JsbSdk.pdb" target="lib\portable45-net45+win8+wpa81"/>
+  </files>
+</package>
