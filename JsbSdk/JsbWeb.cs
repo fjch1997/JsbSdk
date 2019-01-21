@@ -16,7 +16,7 @@ namespace JsbSdk
 {
     public class JsbWeb
     {
-        public Uri JsbRestBaseUri { get; set; } = new Uri("http://120.55.246.87/JSB/rest/");
+        public Uri JsbRestBaseUri { get; set; } = new Uri("https://www.jishibao.top/rest/");
         public Uri SignTestUri => new Uri(JsbRestBaseUri, "sign_test");
 
         private string accessKey;
