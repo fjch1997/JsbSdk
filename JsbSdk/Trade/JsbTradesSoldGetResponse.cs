@@ -2,7 +2,6 @@
 // http://www.xamasoft.com/json-class-generator
 
 using System;
-using System.Collections.Generic;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -29,13 +28,13 @@ namespace JsbSdk.Trade
         public int Num { get; set; }
 
         [JsonProperty("num_iid")]
-        public object NumIid { get; set; }
+        public long NumIid { get; set; }
 
         [JsonProperty("oid")]
-        public object Oid { get; set; }
+        public long Oid { get; set; }
 
         /// <summary>
-        /// 商家外部编码（又称商家编码）。外部商家自己定义的商品Item的id，可以通过taobao.items.custom.get获取商品的Item的信息。
+        /// 商家外部编码（又称商家编码）。外部商家自己定义的商品Item的id，可以通过ta`ao.items.custom.get获取商品的Item的信息。
         /// </summary>
         [JsonProperty("outer_iid")]
         public string OuterIid { get; set; }
